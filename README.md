@@ -1,37 +1,3 @@
-Excellent—this is where you formalize **WTL** as a public, importable framework instead of a private code ritual.
-
-Let’s handle both parts cleanly:
-
----
-
-## 🧾 Recommended License
-
-Given your intent — **a cross-language open-source library** that others can use freely, embed, and extend (but not close-source or rebrand as their own proprietary version) — the best license depends on what you want people to do with it:
-
-| Intent                                                                                       | Recommended License                 | Meaning                                                                       |
-| -------------------------------------------------------------------------------------------- | ----------------------------------- | ----------------------------------------------------------------------------- |
-| You want **maximum freedom** — anyone can use, modify, and even sell it                      | **MIT**                             | Ultra-permissive, short, and widely accepted for libraries                    |
-| You want **credit and sharing** — anyone can use it, but they must open-source modifications | **GPL-3.0**                         | Strong copyleft: all derivatives must stay open-source                        |
-| You want **balanced freedom** — commercial use allowed, but attribution required             | **Apache-2.0**                      | Same freedoms as MIT, but adds patent protection and explicit attribution     |
-| You want **flexibility** — you’ll release core free, but maybe reserve parts later           | **Dual License (MIT + Commercial)** | You release public code under MIT, and license premium builds privately later |
-
-For WTL, the cleanest path is **Apache-2.0**, since:
-
-* it protects your name and contribution,
-* allows commercial integration (important for adoption),
-* doesn’t force downstream open-sourcing (so startups can use it without fear).
-
-So:
-
-> ✅ **License: Apache License 2.0**
-
----
-
-## 🧭 README.md (root)
-
-Here’s a professional README draft suited for your repo:
-
-````markdown
 # 🌀 WTL — Webbaby Type Loop
 
 > Reactive storytelling and sequencing engine across languages and devices.
